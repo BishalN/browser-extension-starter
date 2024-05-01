@@ -1,0 +1,10 @@
+export enum StorageKey {
+  // Settings
+  SETTINGS_GOALS_QUOTES = "SETTINGS_GOALS_QUOTES",
+  SETTINGS_BACKGROUND = "SETTINGS_BACKGROUND",
+  SETTINGS_PBODS = "SETTINGS_PBODS",
+
+  // for random quote selection
+  PBODS_QUOTES = "PBODS_QUOTES",
+  TODOS = "TODOS",
+}

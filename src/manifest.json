@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.3",
+  "name": "Browser Extension Starter",
+  "description": "A starter template for building browser extensions with TypeScript, React, Shadcn ui and Parcel.",
+  "background": {
+    "service_worker": "background/background.ts",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options/index.html"
+  },
+  "incognito": "spanning",
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["storage"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon32.png",
+    "64": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
