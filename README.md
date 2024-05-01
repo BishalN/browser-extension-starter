@@ -1,6 +1,13 @@
-# Productive Browser Extension
+# Browser Extension Starter
 
-A browser extension that helps you stay productive.
+This is a simple browser extension starter template that can be used to build browser extensions for Chrome, Firefox, and Edge.
+
+# Technologies
+
+- Parcel for bundling
+- TypeScript
+- React
+- Tailwind CSS
 
 # Build from source
 
@@ -8,9 +15,3 @@ A browser extension that helps you stay productive.
 - Install dependencies with `yarn`
 - Run `yarn start`
 - Load the `dist/` directory to your browser
-
-# For packaging and deployment
-
-- Update dist/manifest.json with the correct version number
-- Also different syntaxt for different target browsers e.g for `background_scripts`
-- use `web-ext build` command to build the extension
