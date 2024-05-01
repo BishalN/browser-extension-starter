@@ -7,9 +7,10 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["src/*"]
     },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "exclude": ["node_modules", "dist"]
 }
